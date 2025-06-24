@@ -1,0 +1,107 @@
+<!-- Estrutura do site da UEL - Bielzin Capudo FF -->
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UEL - Universidade Estadual de Londrina</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="img/uel-logo.png" alt="Logo da UEL" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="cursos.html">Cursos</a></li>
+        <li><a href="educacao-fisica.html">Educação Física</a></li>
+        <li><a href="vida-universitaria.html">Vida Universitária</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="home-banner">
+    <h1>Bem-vindo à Universidade Estadual de Londrina (UEL)</h1>
+    <p>Excelência em ensino, pesquisa e extensão há mais de 50 anos.</p>
+    <a href="sobre.html" class="btn">Conheça mais</a>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 UEL - Universidade Estadual de Londrina. Desenvolvido por Bielzin Capudo FF.</p>
+  </footer>
+</body>
+</html>
+
+<!-- css/style.css -->
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #134b36;
+}
+
+header {
+  background-color: #134b36;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+
+.logo {
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #aad4b4;
+}
+
+.home-banner {
+  background-image: url('../img/campus.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 120px 40px;
+  text-align: center;
+  color: white;
+}
+
+.home-banner h1 {
+  font-size: 3em;
+}
+
+.home-banner .btn {
+  margin-top: 20px;
+  background-color: #aad4b4;
+  padding: 12px 24px;
+  border: none;
+  text-decoration: none;
+  color: #134b36;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #134b36;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Outras páginas (exemplo): sobre.html, cursos.html, etc., seguem a mesma estrutura, só mudando o conteúdo interno. Deseja que eu envie todas em sequência? */
